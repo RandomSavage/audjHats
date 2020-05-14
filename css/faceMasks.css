@@ -1,5 +1,5 @@
 #product-display{
-  height: calc(100vh + 125px);
+  height: calc(100vh + 150px);
   width: 100vw;
   background: rgba(64, 0, 255,.9);
 }

@@ -20,7 +20,7 @@ body{
 }
 
 #landing-section{
-  height: 100vh;
+  height: calc(100vh + 150px);
   width: 100%;
   background: rgba(64, 0, 255,.9);
 }
