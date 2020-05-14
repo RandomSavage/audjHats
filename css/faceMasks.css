@@ -1,0 +1,141 @@
+#product-display{
+  height: 100vh;
+  width: 100vw;
+  background: rgba(64, 0, 255,.9);
+}
+.display-case{
+  /* padding: 40px; */
+  background: rgba(64, 0, 255,.1);
+  height: 75vh;
+  width: 98%;
+  margin-top: 75PX;
+  display: grid;
+  place-items: center;
+}
+.display-window{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 40px;
+}
+.display-items{
+ background: rgba(64, 0, 255,.9);
+ height: 200px;
+ width: 200px;
+ /* border: 2px solid black; */
+ cursor: pointer;
+}
+.display-image{
+  background: url('../jackMask.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+
+}
+.display-image:hover{
+  background: url('../jackFront.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+#poke{
+  background: url('../poke.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+#poke:hover{
+  background: url('../pokeFront.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+#harry{
+  background: url('../harry.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+#harry:hover{
+  background: url('../harryFront.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+#dot{
+  background: url('../dot.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+#dot:hover{
+  background: url('../dotFront.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+#glitter{
+  background: url('../glitter.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+#glitter:hover{
+  background: url('../glitterFront.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+#butterfly{
+  background: url('../butterfly.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+#butterfly:hover{
+  background: url('../butterflyFront.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+/*phones*/
+@media only screen and (max-width: 767px){
+  .display-case{
+    margin-top: 10px;
+  }
+  .display-window{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+  .display-items{
+   background: rgba(64, 0, 255,.9);
+   height: 150px;
+   width: 150px;
+   /* border: 2px solid black; */
+   cursor: pointer;
+  }
+}
