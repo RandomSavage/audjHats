@@ -31,7 +31,7 @@
   background-size: cover;
   height: 100%;
   width: 100%;
-
+  transition: all .4s ease-in-out;
 }
 .display-image:hover{
   background: url('../jackFront.jpg');
@@ -40,6 +40,7 @@
   background-size: cover;
   height: 100%;
   width: 100%;
+  transition: all .4s ease-in-out;
 }
 #poke{
   background: url('../poke.jpg');
@@ -48,6 +49,7 @@
   background-size: cover;
   height: 100%;
   width: 100%;
+  transition: all .4s ease-in-out;
 }
 #poke:hover{
   background: url('../pokeFront.jpg');
@@ -56,6 +58,7 @@
   background-size: cover;
   height: 100%;
   width: 100%;
+  transition: all .4s ease-in-out;
 }
 #harry{
   background: url('../harry.jpg');
@@ -64,6 +67,7 @@
   background-size: cover;
   height: 100%;
   width: 100%;
+  transition: all .4s ease-in-out;
 }
 #harry:hover{
   background: url('../harryFront.jpg');
@@ -72,6 +76,7 @@
   background-size: cover;
   height: 100%;
   width: 100%;
+  transition: all .4s ease-in-out;
 }
 #dot{
   background: url('../dot.jpg');
@@ -80,6 +85,7 @@
   background-size: cover;
   height: 100%;
   width: 100%;
+  transition: all .4s ease-in-out;
 }
 #dot:hover{
   background: url('../dotFront.jpg');
@@ -88,6 +94,7 @@
   background-size: cover;
   height: 100%;
   width: 100%;
+  transition: all .4s ease-in-out;
 }
 #glitter{
   background: url('../glitter.jpg');
@@ -96,6 +103,7 @@
   background-size: cover;
   height: 100%;
   width: 100%;
+  transition: all .4s ease-in-out;
 }
 #glitter:hover{
   background: url('../glitterFront.jpg');
@@ -104,6 +112,7 @@
   background-size: cover;
   height: 100%;
   width: 100%;
+  transition: all .4s ease-in-out;
 }
 #butterfly{
   background: url('../butterfly.jpg');
@@ -112,6 +121,7 @@
   background-size: cover;
   height: 100%;
   width: 100%;
+  transition: all .4s ease-in-out;
 }
 #butterfly:hover{
   background: url('../butterflyFront.jpg');
@@ -120,6 +130,7 @@
   background-size: cover;
   height: 100%;
   width: 100%;
+  transition: all .4s ease-in-out;
 }
 /*phones*/
 @media only screen and (max-width: 767px){
