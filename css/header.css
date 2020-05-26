@@ -55,11 +55,20 @@ header .menu-btn{
   padding: 15px;
   display: none;
   cursor: pointer;
+  z-index: 11;
 }
 header .menu-btn .fa {
   color: #FF1493;
   font-size: 2rem;
 
+}
+#mob-container{
+  height: 100%;
+  width: 100vh;
+  position: absolute;
+  top: 0;
+  z-index: 9;
+  background-color: transparent;
 }
 .mobile-menu{
   background: #fff;
